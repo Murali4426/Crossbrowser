@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="46224" started-at="2018-05-12T23:34:21Z" finished-at="2018-05-12T23:35:07Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="20824" started-at="2018-05-12T23:34:21Z" finished-at="2018-05-12T23:34:41Z">
+      <class name="parallelTest.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@6eceb130]" name="setup" is-config="true" duration-ms="9058" started-at="2018-05-12T23:34:21Z" finished-at="2018-05-12T23:34:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@6eceb130]" name="testParameterWithXML" duration-ms="10791" started-at="2018-05-12T23:34:30Z" finished-at="2018-05-12T23:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+        <test-method status="PASS" signature="tearDown(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@6eceb130]" name="tearDown" is-config="true" duration-ms="966" started-at="2018-05-12T23:34:40Z" finished-at="2018-05-12T23:34:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="24735" started-at="2018-05-12T23:34:21Z" finished-at="2018-05-12T23:34:45Z">
+      <class name="parallelTest.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@6fb0d3ed]" name="setup" is-config="true" duration-ms="13156" started-at="2018-05-12T23:34:21Z" finished-at="2018-05-12T23:34:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@6fb0d3ed]" name="testParameterWithXML" duration-ms="9656" started-at="2018-05-12T23:34:34Z" finished-at="2018-05-12T23:34:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+        <test-method status="PASS" signature="tearDown(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@6fb0d3ed]" name="tearDown" is-config="true" duration-ms="1921" started-at="2018-05-12T23:34:43Z" finished-at="2018-05-12T23:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </test> <!-- FirefoxTest -->
+    <test name="EdgeTest" duration-ms="46213" started-at="2018-05-12T23:34:21Z" finished-at="2018-05-12T23:35:07Z">
+      <class name="parallelTest.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@281e3708]" name="setup" is-config="true" duration-ms="4035" started-at="2018-05-12T23:34:21Z" finished-at="2018-05-12T23:34:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@281e3708]" name="testParameterWithXML" duration-ms="41632" started-at="2018-05-12T23:34:25Z" finished-at="2018-05-12T23:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+        <test-method status="PASS" signature="tearDown(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@281e3708]" name="tearDown" is-config="true" duration-ms="530" started-at="2018-05-12T23:35:06Z" finished-at="2018-05-12T23:35:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
